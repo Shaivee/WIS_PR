@@ -1,0 +1,19 @@
+# Requirements for the ISRA rule-based blob defect classification pipeline:
+#   compute_rules.py, classify_rules.py, evaluate_rules.py,
+#   blob_features.py, build_blob_dataset.py, classify_blob_folders.py,
+#   evaluate_on_blobs.py, summarize_dataset.py
+#
+# Note: scikit-learn is used only for the train/test split (compute_rules.py)
+# and for scoring accuracy/precision/recall (evaluate_rules.py,
+# evaluate_on_blobs.py) -- no model is fit or trained anywhere in this
+# pipeline. Classification itself (classify_rules.py) needs only numpy
+# and pandas.
+#
+# Install with:
+#   pip install -r requirements.txt
+
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scikit-image>=0.21
+Pillow>=10.0

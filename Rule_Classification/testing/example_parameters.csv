@@ -1,0 +1,6 @@
+blob,aspect_ratio,PERC_BRIGHT,PERC_DARK,A_to_roi_ratio
+blob_001.png,1.0,0.0357,0.7912,0.8269
+blob_002.png,12.5,0.1,0.7,0.8
+blob_003.png,0.5,0.95,0.0,0.95
+blob_004.png,-1.0,0.1,0.2,0.3
+blob_005.png,2.0,0.2,0.3,0.9

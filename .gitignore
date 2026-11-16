@@ -1,0 +1,22 @@
+# Large model files
+*.pkl
+
+# Large synthetic data files
+*.zip
+*.npy
+
+# Synthetic datasets
+/Synthetic_data/wis_dataset/
+/Synthetic_data/wis_synth/
+
+# Generated outputs
+/OB_Detection/runs/
+/OB_Detection/wis_tiles/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
